@@ -11,7 +11,12 @@ namespace ConsoleApp6
             Console.WriteLine("Qual a tabuada? ");
             x = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Qual a operação? (1= Mult, 2= Div, 3= Soma, 4= Sub) ");
+            Console.WriteLine("(1= Multiplicação)");
+            Console.WriteLine("(2= Divisão)");
+            Console.WriteLine("(3= Soma)");
+            Console.WriteLine("(4= Subtração)");
+            Console.WriteLine();
+            Console.WriteLine("Qual a operação? ");
             sinal = int.Parse(Console.ReadLine());
 
             Console.WriteLine($"Tabuada de {x}");
